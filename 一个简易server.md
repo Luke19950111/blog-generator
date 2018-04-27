@@ -12,6 +12,7 @@ Tim Berners-Lee写出了第一个网页、第一个浏览器和第一个服务�
 2. 但是我们还没有提供HTTP服务的程序。
 
 用脚本就可以提供HTTP服务，我们就用Node.js脚本试试吧。
+
 #### 接收请求
 用一个文件就可以实现：
 1. 新建一个安全目录，进入目录`cd ~/Desktop; mkdir node-demo; cd node-demo`
@@ -43,6 +44,7 @@ $ node server-before.js 8888
 
 1. 这说明server收到了我们用curl发出的请求；
 2. 但是由于server没有发出响应，curl就一直等在那里，无法退出（ctrl+c中断这个傻curl吧）。
+
 #### 发出响应
 接下来我们让server发出响应。
 1. 便捷server.js
