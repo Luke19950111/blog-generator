@@ -19,3 +19,35 @@ z-index元素指定了一个具有定位属性的元素及其子代元素的z-or
 - auto 默认，堆叠顺序与父元素相等
 - number 设置元素堆叠顺序
 - inherit 规定应该从父元素继承z-index的值
+
+## 3. transform
+transform属性允许你修改CSS视觉格式模型的坐标空间。使用它，元素可以被转换（translate）、旋转（rotate）、缩放（scale）、倾斜（skew）。
+transform属性只对block元素生效。
+
+## 4. cursor
+cursor属性定义鼠标指针悬浮在元素上方显示的鼠标光标。
+
+|值|描述|
+|:-:|:-:|
+|auto|初始值。浏览器根据目前内容决定指针样式|
+|pointer|悬浮于链接上时，通常是手|
+|text|指示文字可被选中|
+|none|无指针被渲染|
+
+[cursor MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/cursor)
+
+## 5. text-align
+`text-align`定义**行内内容**如何相对于它的**块父元素**对齐。
+`text-align`并不控制块元素自己的对齐，只控制它的行内内容的对齐。
+
+|值|描述|
+|:-:|:-:|
+|left|行内内容向左侧边对齐|
+|right|行内内容向右侧边对齐|
+|center|行内内容居中|
+|justify|文字向两侧对齐，但是对最后一行无效|
+|justify-all|和justify一致，但是强制使最后一行两端对齐|
+
+[text-align MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-align)
+
+
