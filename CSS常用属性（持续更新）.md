@@ -50,4 +50,20 @@ cursor属性定义鼠标指针悬浮在元素上方显示的鼠标光标。
 
 [text-align MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-align)
 
+## 6. background-size
+`background-size`设置背景图片大小。
+
+|值|描述|
+|:-:|:-:|
+|cover|缩放背景图片以完全覆盖背景区，可能背景图片部分看不见|
+|contain|缩放背景图片以完全装入背景区，可能背景区部分空白|
+|auto|以背景图片的比例缩放背景图片|
+|一个值|这个值指定图片的宽度，图片的高度隐式的为auto|
+|两个值|第一个值指定图片的宽度，第二个值指定图片的高度|
+|逗号分隔多个值|设置多重背景|
+
+没有被背景图片覆盖的区域会用`background-color`属性设置背景颜色。
+
+[background-size MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-size)
+
 
